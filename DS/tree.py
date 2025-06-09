@@ -23,6 +23,8 @@ child2 = TreeNode("Child2")
 root.add_child(child1)
 root.add_child(child2)
 
+print(root)
+
 grandchild1 = TreeNode("Grandchild1")
 grandchild2 = TreeNode("Grandchild2")
 child1.add_child(grandchild1)
